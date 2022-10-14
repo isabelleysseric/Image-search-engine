@@ -1,20 +1,18 @@
-% Isabelle EYSSERIC
-% Matricule : 17243571
 % Version Matlab : R2019a
 % Systeme d'exploitation : Windows
 
 function listedist = rechercher(nomImage,nomRepertoire)
-% Rechercher les images similaires à l'image requête
+% Rechercher les images similaires Ã  l'image requÃªte
 % function listedist = rechercher(nomImage,nomRepertoire)
 % ****************************************************************            
 % Auteur: Isabelle EYSSERIC
-% Paramètres entrée : 
-%   nomImage: Chemin absolu de l'image requête
-%   nomRepertoire: Chemin absolu du répertoire contenant la base
-%                  de données d'images indexées
-% Paramètre sortie : 
-%   listedist: tableau de structures trié. Une structure comprend
-%              2 champs: le nom de l'image et la distance calculée.
+% ParamÃ¨tres entrÃ©e : 
+%   nomImage: Chemin absolu de l'image requÃªte
+%   nomRepertoire: Chemin absolu du rÃ©pertoire contenant la base
+%                  de donnÃ©es d'images indexÃ©es
+% ParamÃ¨tre sortie : 
+%   listedist: tableau de structures triÃ©. Une structure comprend
+%              2 champs: le nom de l'image et la distance calculÃ©e.
 % ****************************************************************
     
     % Image requete
@@ -57,7 +55,7 @@ function listedist = rechercher(nomImage,nomRepertoire)
     listeDistance = struct([]);
     for i = 1:tailleListe
         
-        % Lecture des images indexées
+        % Lecture des images indexÃ©es
         img1 = listeRep(i:i,:); img2 = strcat(repIndex,'\',img1);        
         fopen(img2,'r'); file = load(img2); h2 = reshape(file,[4,4,4]);
         img3 = img1(1:3); img4 = strcat(img3,'.jpg'); % Noms dans listedist
@@ -68,7 +66,7 @@ function listedist = rechercher(nomImage,nomRepertoire)
         FBlue  = sum((Mrgb(:,:,1)-h2(:,:,1)).^2);
         F = sum( sqrt( FBlue + FRed + FGreen ) )/4;
         
-        % Mise à jour de la structure de sortie
+        % Mise Ã  jour de la structure de sortie
         listeDistance(i).nom = img4;
         listeDistance(i).distanceTotale = F;
         fclose('all');
