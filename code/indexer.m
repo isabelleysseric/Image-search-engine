@@ -1,19 +1,17 @@
-% Isabelle EYSSERIC
-% Matricule : 17243571
 % Version Matlab : R2019a
 % Systeme d'exploitation : Windows
 
 function indexer(nomRepertoire)
-% Indexer une base de données d'images
+% Indexer une base de donnÃ©es d'images
 % function indexer(nomRepertoire)
 % ****************************************************************            
 % Auteur: Isabelle EYSSERIC        
-% Paramètre: 
-%   nomRepertoire: Chemin absolu du répertoire contenant la base 
-%                  de données d'images 
+% ParamÃ¨tre: 
+%   nomRepertoire: Chemin absolu du rÃ©pertoire contenant la base 
+%                  de donnÃ©es d'images 
 % ****************************************************************
 
-    % Création du dossier d'indexation
+    % CrÃ©ation du dossier d'indexation
     index = strcat(nomRepertoire,'\index');
     mkdir (index);
 
@@ -25,7 +23,7 @@ function indexer(nomRepertoire)
     % Histogramme des images
     for a = 1:tailleListe
 
-        % Préparation du format texte
+        % PrÃ©paration du format texte
         im1 = strcat(nomRepertoire,'\',listeRep(a:a,:)); 
         im2 = listeRep(a:a,:); im3 = im2(1:3); im4 = strcat(im3,'.txt');
         im5 = strcat(nomRepertoire,'\index\',im4); 
