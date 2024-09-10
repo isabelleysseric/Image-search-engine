@@ -1,5 +1,4 @@
-# Image-search-engine
-Building image search an engine using MATLAB.
+<h1 align='center'>Image search engine<br><i>Building image search an engine using MATLAB</i></h1>
 <br/>
 <br/>
 
@@ -26,23 +25,22 @@ Building image search an engine using MATLAB.
   </a><br>
   
 </h2>
-<br/>
+<br>
 
 
-## Repertoire
+## Repository
 
-Dans le dossier **code**, il y a deux fichiers dont un pour indexer l'histogramme des images *indexer.m* et l'autre pour rechercher les images parmis la base de données indexée *rechercher.m*.
+In the **code** folder, there are two files, one to index the histogram of images *indexer.m* and the other to search for images in the indexed database *rechercher.m*.
 
-Dans le dossier **images**, il y a les images utilisées dans le wiki pour visualiser les résultats de la recherche. 
-
+In the **images** folder, there are the images used in the wiki to visualize the search results.
 
 - **code**
   - *data_manipulation_and_analysis.R*
   - *graph_analysis.R*
-  
+
 - **data**
-  - *...* (Vide: recupérer vos propres images par classes)
-  
+  - *...* (Empty: retrieve your own images by classes)
+
 - **images**
   - *search_engine_cible.png*
 
