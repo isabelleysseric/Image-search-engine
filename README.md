@@ -3,21 +3,29 @@ Building image search an engine using MATLAB.
 <br/>
 <br/>
 
-<p align='center'>
-  <a href="https://github.com/isabelleysseric/Image-search-engine">Image-search-engine</a> (GitHub)
-  &nbsp; • &nbsp;<a href="https://github.com/isabelleysseric/Image-search-engine/wiki">Image-search-engine</a> (Wiki)<br/>
-  <a href="https://github.com/isabelleysseric">isabelleysseric</a> (GitHub)
-  &nbsp; • &nbsp;<a href="https://isabelleysseric.com/">isabelleysseric.com</a> (Portfolio)
-  &nbsp; • &nbsp;<a href="https://www.linkedin.com/in/isabelle-eysseric/">isabelle-eysseric</a> (LinkedIn) <br/><br/><br/>
-</p>
-<br/>
-<br/>
-
 
 <p align='center'>
   <img src="https://github.com/isabelleysseric/Image-search-engine/blob/main/images/search_engine_cible.png" />
 </p>
-<br/>
+
+<h2 align="center">    
+
+  <!-- GitHub -->
+  <a href="https://github.com/isabelleysseric/">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" >
+  </a>  
+
+  <!-- Project Repo -->
+  <a href="https://github.com/isabelleysseric/Image-search-engine/">
+    <img src="https://img.shields.io/badge/Repo-Image_search_engine-green?style=for-the-badge&logo={Image-search-engine}&logoColor=white" >
+  </a>
+
+  <!-- Wiki Project -->
+  <a href="https://github.com/isabelleysseric/Image-search-engine/wiki/">
+    <img src="https://img.shields.io/badge/Wiki-Image_search_engine-green?style=for-the-badge&logo={Image-search-engine}&logoColor=white" >
+  </a><br>
+  
+</h2>
 <br/>
 
 
